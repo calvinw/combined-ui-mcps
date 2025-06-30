@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "combined-ui-mcps"
+version = "0.1.0"
+description = "Combined MCP UI tool server"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "fastmcp"
+]
+requires-python = ">=3.10"
+
+[project.scripts]
+combined-mcps = "combined:main"
