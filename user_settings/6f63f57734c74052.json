@@ -1,6 +1,0 @@
-{
-  "Model": "anthropic/claude-sonnet-4",
-  "Temperature": 0,
-  "CreateToolButtons": false,
-  "last_updated": "2025-06-29T13:49:25.146385"
-}

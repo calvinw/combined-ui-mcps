@@ -41,3 +41,9 @@ Thumbs.db
 
 # uv
 .venv/
+
+# Chainlit files (downloaded by run_chainlit.sh)
+app.py
+chainlit.md
+.chainlit/
+user_settings/
